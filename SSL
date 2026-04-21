@@ -1,0 +1,1 @@
+keytool -import -trustcacerts -keystore "C:/Program Files/tibco/tibcojre64/1.8.0/lib/security/cacerts" -storepass changeit -noprompt -alias qf-ecs-darktrace -file "C:\Users\adm-amohmmad\Downloads\mzaobmui.mgmt.meeza.net.crt"
