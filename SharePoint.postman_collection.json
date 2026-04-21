@@ -1,0 +1,168 @@
+{
+  "info": {
+    "_postman_id": "4ab48a97-d82b-4764-b6d7-0cccc3269dba",
+    "name": "SharePoint",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "29630338"
+  },
+  "item": [
+    {
+      "name": "New Request",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJ0eXAiOiJKV1QiLCJub25jZSI6IkxSRzV3TFlfcEtnaDBZb2FPelQyd0h2ZzdsS0tHdzFfVHdhYjBwUWhiWjQiLCJhbGciOiJSUzI1NiIsIng1dCI6IlUxc1g4WUZIUzdaNlZsN1ZITEl6VGVqYnZqMCIsImtpZCI6IlUxc1g4WUZIUzdaNlZsN1ZITEl6VGVqYnZqMCJ9.eyJhdWQiOiJodHRwczovL2dyYXBoLm1pY3Jvc29mdC5jb20iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9jNWE0M2M4OS0wM2Q1LTQ1NGMtYTIzMy0zODM4YjVlYzA3NTgvIiwiaWF0IjoxNzc2MjM5NjEwLCJuYmYiOjE3NzYyMzk2MTAsImV4cCI6MTc3NjI0MzUxMCwiYWlvIjoiQVNRQTIvOGJBQUFBdEMyYURKVE0xZzBEY1VnNllyR2xQWnhUUEpQZDZyNnZkQUJReCtjOTRXZz0iLCJhcHBfZGlzcGxheW5hbWUiOiJ0aXBjb19jb25uZWN0X3VzZXIiLCJhcHBpZCI6ImFjNjY1MjI5LTU1MTYtNGZkYi1hZjZmLWZiMTdkZGE2OGJiNSIsImFwcGlkYWNyIjoiMSIsImlkcCI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0L2M1YTQzYzg5LTAzZDUtNDU0Yy1hMjMzLTM4MzhiNWVjMDc1OC8iLCJpZHR5cCI6ImFwcCIsIm9pZCI6IjBkYTMwZDg4LWM1YWYtNDE4ZS05ZDc2LTVhNTUxNTc5OTJiYSIsInJoIjoiMS5BVWNBaVR5a3hkVURURVdpTXpnNHRld0hXQU1BQUFBQUFBQUF3QUFBQUFBQUFBQUFBQUJIQUEuIiwicm9sZXMiOlsiU2l0ZXMuU2VsZWN0ZWQiXSwic3ViIjoiMGRhMzBkODgtYzVhZi00MThlLTlkNzYtNWE1NTE1Nzk5MmJhIiwidGVuYW50X3JlZ2lvbl9zY29wZSI6IkVVIiwidGlkIjoiYzVhNDNjODktMDNkNS00NTRjLWEyMzMtMzgzOGI1ZWMwNzU4IiwidXRpIjoiRGJKTlA1dThQRS1FQWpQcHJNNG5BQSIsInZlciI6IjEuMCIsIndpZHMiOlsiMDk5N2ExZDAtMGQxZC00YWNiLWI0MDgtZDVjYTczMTIxZTkwIl0sInhtc19hY2QiOjE3NjU3OTY0ODksInhtc19hY3RfZmN0IjoiMyA5IiwieG1zX2Z0ZCI6Ikp2Mml6WVFSOG5HaGNfRmV1WUhFY1lQamRVLWlQbExaYWdFNVFRR3RJbzRCWm5KaGJtTmxZeTFrYzIxeiIsInhtc19pZHJlbCI6IjggNyIsInhtc19wZnRleHAiOjE3NzYzMjk5MTAsInhtc19yZCI6IjAuNDJMbFlCSmlkQmNTNFdBWEV0RGEtZG5vVHFTYWZ3ZlhEN1pWM1N1Q2hFUTRPSVVFM3Z4OTktcm41WDl1elROT2ZGbVdjZTZWa0FnSGg1QUFNd01FSElEU1FpSWMzRUlDS3QzcGwtck1PUnd5V1BmOGZGcVR5Z2dBIiwieG1zX3N1Yl9mY3QiOiIzIDkiLCJ4bXNfdGNkdCI6MTQ2NjU5OTAzMywieG1zX3RudF9mY3QiOiIzIDIifQ.Nz8igoqPKRPtTqciDxpKRNkMM6u94rDHslHrt9ac-8x8bI9utEnCwn5McOc745OAN2Dhe5pK5i3vWcvQVQMVnF4vYugg0Ju1OT2_r_LDopKagnSI-IP10Rddjy8CGGCRtr8BT3lWLcp0vefcIwFLyt2hSKn1EUOCDADjTY5-n0ysf5SHrh_KueqHpqeDpCNxVklgWlaoqTOysdkMgXC8NlguMYqHbsL58FY1_Jph8OUpBZgP2eoxeO5jrgmJgEIoz_6FRvuOtTKb_xurdZ3d1jZJ9rpzxcRjcJo_qgn9SydUuLOCW_lf-DgA8glaRaZ9N09GGEqyF_GtdSD4quTobQ",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://graph.microsoft.com/v1.0/sites/meezaqa.sharepoint.com,f7611db2-24f5-4717-8280-5aadc7933925,364ccd9b-453e-4f06-8e4a-c3111885e2f2/lists/de7415f6-d8b8-41d8-9dd2-0a59c36a2d16/items?expand=fields($select=Submitted_x0020_Month,Employee_x0020_Name_x003a_Weight,Date )&top=2000",
+          "protocol": "https",
+          "host": [
+            "graph",
+            "microsoft",
+            "com"
+          ],
+          "path": [
+            "v1.0",
+            "sites",
+            "meezaqa.sharepoint.com,f7611db2-24f5-4717-8280-5aadc7933925,364ccd9b-453e-4f06-8e4a-c3111885e2f2",
+            "lists",
+            "de7415f6-d8b8-41d8-9dd2-0a59c36a2d16",
+            "items"
+          ],
+          "query": [
+            {
+              "key": "expand",
+              "value": "fields($select=Submitted_x0020_Month,Employee_x0020_Name_x003a_Weight,Date )"
+            },
+            {
+              "key": "top",
+              "value": "2000"
+            },
+            {
+              "key": "orderby",
+              "value": "Date desc",
+              "type": "text",
+              "disabled": true
+            },
+            {
+              "key": "filter",
+              "value": "fields/Submitted_x0020_Month eq 'September-2024'",
+              "type": "text",
+              "disabled": true
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "client_id",
+              "value": "ac665229-5516-4fdb-af6f-fb17dda68bb5",
+              "type": "text",
+              "uuid": "563e08aa-a6e4-40c2-a1bf-fc6572db483f"
+            },
+            {
+              "key": "client_secret",
+              "value": "4kD8Q~MyuASuZZPo2_fvjMj2vBNofngwVk0xic8J",
+              "type": "text",
+              "uuid": "56626d72-5de1-4f7e-b0ca-bfdd066d3880"
+            },
+            {
+              "key": "grant_type",
+              "value": "client_credentials",
+              "type": "text",
+              "uuid": "0f07b600-8b28-4778-907a-5b9c73fe0971"
+            },
+            {
+              "key": "scope",
+              "value": "https://meezaqa.sharepoint.com/.default",
+              "type": "text",
+              "uuid": "5d9d9e67-2fd9-4ab8-860c-5156d29b4bfe",
+              "disabled": true
+            },
+            {
+              "key": "scope",
+              "value": "https://graph.microsoft.com/.default",
+              "type": "text",
+              "uuid": "cb8e0e1f-a9a9-4593-804d-1fe42b72cf29"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://login.microsoftonline.com:443/c5a43c89-03d5-454c-a233-3838b5ec0758/oauth2/v2.0/token",
+          "protocol": "https",
+          "host": [
+            "login",
+            "microsoftonline",
+            "com"
+          ],
+          "port": "443",
+          "path": [
+            "c5a43c89-03d5-454c-a233-3838b5ec0758",
+            "oauth2",
+            "v2.0",
+            "token"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJ0eXAiOiJKV1QiLCJub25jZSI6IlNsNGNrN2t1ZlI0ZEtzcl9zRldkZFdnNzlPZ0hkYVVZU2xsdjlLd1hmUnciLCJhbGciOiJSUzI1NiIsIng1dCI6IlBjWDk4R1g0MjBUMVg2c0JEa3poUW1xZ3dNVSIsImtpZCI6IlBjWDk4R1g0MjBUMVg2c0JEa3poUW1xZ3dNVSJ9.eyJhdWQiOiJodHRwczovL2dyYXBoLm1pY3Jvc29mdC5jb20iLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9jNWE0M2M4OS0wM2Q1LTQ1NGMtYTIzMy0zODM4YjVlYzA3NTgvIiwiaWF0IjoxNzY4Mzc0MDY2LCJuYmYiOjE3NjgzNzQwNjYsImV4cCI6MTc2ODM3Nzk2NiwiYWlvIjoiazJaZ1lKZ2dwY2pkSjcyaDhzNVY0V3R2SEs0YUFnQT0iLCJhcHBfZGlzcGxheW5hbWUiOiJ0aXBjb19jb25uZWN0X3VzZXIiLCJhcHBpZCI6ImFjNjY1MjI5LTU1MTYtNGZkYi1hZjZmLWZiMTdkZGE2OGJiNSIsImFwcGlkYWNyIjoiMSIsImlkcCI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0L2M1YTQzYzg5LTAzZDUtNDU0Yy1hMjMzLTM4MzhiNWVjMDc1OC8iLCJpZHR5cCI6ImFwcCIsIm9pZCI6IjBkYTMwZDg4LWM1YWYtNDE4ZS05ZDc2LTVhNTUxNTc5OTJiYSIsInJoIjoiMS5BVWNBaVR5a3hkVURURVdpTXpnNHRld0hXQU1BQUFBQUFBQUF3QUFBQUFBQUFBQkFBUUJIQUEuIiwicm9sZXMiOlsiU2l0ZXMuU2VsZWN0ZWQiXSwic3ViIjoiMGRhMzBkODgtYzVhZi00MThlLTlkNzYtNWE1NTE1Nzk5MmJhIiwidGVuYW50X3JlZ2lvbl9zY29wZSI6IkVVIiwidGlkIjoiYzVhNDNjODktMDNkNS00NTRjLWEyMzMtMzgzOGI1ZWMwNzU4IiwidXRpIjoiQ1Y5WXpGdmFYRWl6Si1tVGQ5Y1pBQSIsInZlciI6IjEuMCIsIndpZHMiOlsiMDk5N2ExZDAtMGQxZC00YWNiLWI0MDgtZDVjYTczMTIxZTkwIl0sInhtc19hY2QiOjE3NjU3OTY0ODksInhtc19hY3RfZmN0IjoiMyA5IiwieG1zX2Z0ZCI6Ikt6ZXdKUXhENWQ1NFNyZm1GN2RIVzZjb21YeTVPdWt1MXVmbVRfM1V6VE1CYzNkbFpHVnVZeTFrYzIxeiIsInhtc19pZHJlbCI6IjcgMzAiLCJ4bXNfcmQiOiIwLjQyTGxZQkppZEJjUzRXQVhFdERhLWRub1RxU2Fmd2ZYRDdaVjNTdUNnS0tjUWdKdl9yNTc5ZlB5UDdmbUdTZS1MTXM0OXdvb3lpRWt3TXdBQVFlZ05BQSIsInhtc19zdWJfZmN0IjoiMyA5IiwieG1zX3RjZHQiOjE0NjY1OTkwMzMsInhtc190bnRfZmN0IjoiMTQgMyJ9.ABrpPmzoFN3-5AY57IHTDwZODih3VoxUOfdgmmTcBAkz3Y7m6-KDMACSlKieHfQ6nENka6nFX0ywp4F9fhm5wRaWA5AH56sYxCfFKJtH8XY4ufGmBG3VN0BofNnIleKYDTmwNEy03Av50uz7aTL8BL28PHKVwPtbVkaPAhHHVjvd600D_NQ5DQhj7T01DNAgNHZXmfVoNUZ1YMnQ4wayKDtAPwB7s7CRW7V_hOvW9RCq-trJFPYc3Nd5cUpl02VFZ_H2757o9S3WH5OX1JMMCOJR-LTAAi8Crpdjrj-bXatmGDEd9NL-rfe5AlvCd7YVgLT6QJeaLa_3tH_vr9eiPw",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://graph.microsoft.com/v1.0/sites/meezaqa.sharepoint.com:/QF",
+          "protocol": "https",
+          "host": [
+            "graph",
+            "microsoft",
+            "com"
+          ],
+          "path": [
+            "v1.0",
+            "sites",
+            "meezaqa.sharepoint.com:",
+            "QF"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    }
+  ]
+}
