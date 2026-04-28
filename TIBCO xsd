@@ -1,14 +1,1 @@
-count($DevicesResult[ contains(tns20:ossource, "cSensor") ])
-
-
-<element name="DevicesResponse">
-  <complexType>
-    <sequence>
-      <element name="DevicesResponseElement"
-               type="tns:DevicesResponseElementType"
-               minOccurs="0"
-               maxOccurs="unbounded"/>
-    </sequence>
-  </complexType>
-</element>
-
+count($DevicesResult/tns20:DevicesResponseElement[contains(tns20:ossource, "cSensor")])
