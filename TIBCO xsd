@@ -1,50 +1,14 @@
 count($DevicesResult[ contains(tns20:ossource, "cSensor") ])
 
 
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://tns.tibco.com/bw/json/1777378171232" elementFormDefault="qualified" targetNamespace="http://tns.tibco.com/bw/json/1777378171232">
-  <complexType name="DevicesResponseElementType" >
+<element name="DevicesResponse">
+  <complexType>
     <sequence>
-      <element maxOccurs="1" minOccurs="0" name="id" type="integer"/>
-      <element maxOccurs="1" minOccurs="0" name="aghuuid" type="string"/>
-      <element maxOccurs="1" minOccurs="0" name="did" type="integer"/>
-      <element maxOccurs="1" minOccurs="0" name="sid" type="integer"/>
-      <element maxOccurs="1" minOccurs="0" name="hostname" type="string"/>
-      <element maxOccurs="unbounded" minOccurs="0" name="credentials">
-        <complexType>
-          <sequence>
-            <element maxOccurs="1" minOccurs="0" name="lastSeen" type="long"/>
-            <element maxOccurs="1" minOccurs="0" name="credential" type="string"/>
-          </sequence>
-        </complexType>
-      </element>
-      <element maxOccurs="1" minOccurs="0" name="time" type="long"/>
-      <element maxOccurs="1" minOccurs="0" name="endtime" type="long"/>
-      <element maxOccurs="1" minOccurs="0" name="os" type="string"/>
-      <element maxOccurs="1" minOccurs="0" name="ossource" type="string"/>
-      <element maxOccurs="1" minOccurs="0" name="typename" type="string"/>
-      <element maxOccurs="1" minOccurs="0" name="typelabel" type="string"/>
-      <element maxOccurs="unbounded" minOccurs="0" name="interfaces">
-        <complexType>
-          <sequence>
-            <element maxOccurs="1" minOccurs="0" name="mac" type="string"/>
-            <element maxOccurs="1" minOccurs="0" name="vendor" type="string"/>
-            <element maxOccurs="unbounded" minOccurs="0" name="ips">
-              <complexType>
-                <sequence>
-                  <element maxOccurs="1" minOccurs="0" name="ip" type="string"/>
-                  <element maxOccurs="1" minOccurs="0" name="sid" type="integer"/>
-                  <element maxOccurs="1" minOccurs="0" name="hostname" type="string"/>
-                  <element maxOccurs="1" minOccurs="0" name="time" type="integer"/>
-                  <element maxOccurs="1" minOccurs="0" name="is_vanguard" type="boolean"/>
-                </sequence>
-              </complexType>
-            </element>
-          </sequence>
-        </complexType>
-      </element>
+      <element name="DevicesResponseElement"
+               type="tns:DevicesResponseElementType"
+               minOccurs="0"
+               maxOccurs="unbounded"/>
     </sequence>
   </complexType>
-  <element name="DevicesResponseElement" type="tns:DevicesResponseElementType" />
-</schema>
+</element>
 
