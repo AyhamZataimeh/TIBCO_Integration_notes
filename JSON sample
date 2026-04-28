@@ -1,3 +1,12 @@
+const data = pm.response.json(); // or your JSON variable
+
+const hostnames = data
+    .filter(item => item.ossource === "cSensor")
+    .map(item => item.hostname);
+
+console.log(hostnames);
+
+
 {
     "usercredentialcount": 9372,
     "subnets": 1335,
