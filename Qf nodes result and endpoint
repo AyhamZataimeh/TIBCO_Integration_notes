@@ -1,0 +1,29 @@
+{
+    "PhysicalAppliance": 29,
+    "VirtualAppliance": 46,
+    "LoadBalancer": 1,
+    "FirewallManagerAnalyzer": 0,
+    "Applications": 0,
+    "AccessLayerDevices": 2996,
+    "CoreLayerDevices": 62,
+    "DistributionLayerDevices": 306,
+    "MediaGateways": 3,
+    "NetworkMonitoringServers": 8,
+    "UnifiedCommunicationsVideo": 0,
+    "UnifiedCommunicationsVoice": 0,
+    "VoiceGateways": 10,
+    "WirelessWAPs": 8762,
+    "WirelessWLCs": 44,
+    "PhysicalServers": 72,
+    "MicrosoftPlatform": 750,
+    "OracleOCIPlatform": 345,
+    "VmwarePlatform": 198,
+    "EnterpriseTechnologyStackDatabase": 32,
+    "EnterpriseTechnologyStackApplication": 1,
+    "MicrosoftPlatformDevTest": 205,
+    "OracleOCIPlatformDevTest": 142,
+    "VmwarePlatformDevTest": 15
+}
+
+
+API: /ucmdb/qf/nodes
