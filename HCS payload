@@ -1,0 +1,21 @@
+{
+  "auth": {
+    "identity": {
+      "methods": ["password"],
+      "password": {
+        "user": {
+          "name": "YOUR_USERNAME",
+          "password": "YOUR_PASSWORD",
+          "domain": {
+            "name": "meeza.cloude"
+          }
+        }
+      }
+    },
+    "scope": {
+      "project": {
+        "name": "YOUR_PROJECT_NAME"
+      }
+    }
+  }
+}
