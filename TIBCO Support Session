@@ -16,5 +16,15 @@ emsntsct: StartServiceCtrlDispatcher failed (1063)
 
 C:\tibco\ems\10.4\bin\emsntsct.exe "tibemsd
 
-emsntsrg /i /a "tibemsd" C:\tibco\ems\10.4\bin C:\tibco\ems\10.4\bin -config "C:\tibco\ems\10.4\bin\tibemsd.conf" 7222
+EMS Server as Windows servcie: 
+emsntsrg /i tibemsd C:\tibco\ems\10.4\bin C:\tibco\ems\10.4\bin "-config C:\tibco\ems\10.4\bin\tibemsd.conf" 7222 --> worked
+
+bwagent as windows service:
+
+ntservice.name=BW Agent
+ntservice.displayname=TIBCO BW Agent 6.X
+ntservice.starttype=delayed
+ntservice.interactive=false
+ntservice.binary.path.absolute=<TIBCO_HOME>/bw/6.X/bin/bwagent.exe
+ 
  
