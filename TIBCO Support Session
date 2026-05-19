@@ -12,3 +12,6 @@ emsntsct tibemsd "-config C:\tibco\ems\10.4\bin\tibemsd.conf"
 
 C:\tibco\ems\10.4\bin>emsntsct tibemsd "-config C:\tibco\ems\10.4\bin\tibemsd.conf"
 emsntsct: StartServiceCtrlDispatcher failed (1063)
+
+
+C:\tibco\ems\10.4\bin\emsntsct.exe "tibemsd"
