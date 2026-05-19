@@ -9,3 +9,6 @@ Incorrect function.
 emsntsrg /i tibemsd C:\tibco\ems\10.4\bin C:\tibco\ems\10.4\bin
 
 emsntsct tibemsd "-config C:\tibco\ems\10.4\bin\tibemsd.conf"
+
+C:\tibco\ems\10.4\bin>emsntsct tibemsd "-config C:\tibco\ems\10.4\bin\tibemsd.conf"
+emsntsct: StartServiceCtrlDispatcher failed (1063)
