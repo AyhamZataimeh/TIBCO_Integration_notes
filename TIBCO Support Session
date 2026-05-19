@@ -5,3 +5,5 @@ emsntsrg /i tibemsd C:\tibco\ems\10.4\bin C:\tibco\ems\10.4\bin
 
 The TIBCO EMS Server 7222 service terminated with the following service-specific error: 
 Incorrect function.
+
+emsntsrg /i tibemsd C:\tibco\ems\10.4\bin C:\tibco\ems\10.4\bin
