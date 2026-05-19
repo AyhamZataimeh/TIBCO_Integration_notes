@@ -1,1 +1,4 @@
 emsntsrg -i -config "C:\ProgramData\TIBCO\cfgmgmt\ems\data\tibemsd.conf"
+
+emsntsrg /i tibemsd C:\tibco\ems\10.4\bin C:\tibco\ems\10.4\bin 
+"-config C:\tibco\ems\10.4\7222\tibemsd.conf" 7222
